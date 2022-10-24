@@ -217,7 +217,8 @@ div[data-service] .c-n-c .c-l-b{
     font-weight: bold;
     cursor: pointer;
     transition: opacity .3s ease, transform .3s cubic-bezier(0.25, 1, 0.5, 1), visibility .3s ease, box-shadow .3s ease, background-color .3s ease;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 4px 12px;
+	border: solid white 1px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 4px 12px;
 }
 /* Play icon */
 div[data-service] .c-n-c .c-l-b::before{
@@ -228,7 +229,7 @@ div[data-service] .c-n-c .c-l-b::before{
     left: 1.1em;
     z-index: 2;
     height: 0;
-    border-left: 12px solid white;
+    border-left: 12px solid black;
     border-top: 7.5px solid transparent;
     border-bottom: 7.5px solid transparent;
 }
@@ -242,11 +243,11 @@ div[data-service] .c-n-c .c-la-b{
 }
 
 div[data-service] .c-n-c .c-la-b:hover{
-	background: rgba(225, 239, 255, .95);
+	background: #ccc;
 }
 
 div[data-service] .c-n-c .c-l-b:hover{
-	background: rgba(9, 80, 161, 0.89);
+	background: ccc;
 }
 
 div[data-service] .c-n-c .c-la-b:active{
