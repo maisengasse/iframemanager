@@ -52,7 +52,7 @@ div[data-service].c-h-n .c-ld{
 	visibility: visible;
 	transform: translateY(0);
 }
-  
+
 @keyframes spin {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
@@ -94,7 +94,7 @@ div[data-service] .c-nt{
 	max-width: 100%;
 	height: 100%;
 	width: 100%;
-	transition: opacity .3s ease, visibility .3s ease; 
+	transition: opacity .3s ease, visibility .3s ease;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -207,12 +207,12 @@ div[data-service] .c-n-c .c-l-b{
     position: relative;
     padding: 1em;
     vertical-align: middle;
-    background: rgba(0, 102, 219, 0.84);
+    background: white;
     border: none;
     border-radius: .25em;
     font-size: .85em;
     padding-left: 2.8em;
-    color: #ffffff;
+    color: black;
     margin: 0 auto;
     font-weight: bold;
     cursor: pointer;
@@ -236,8 +236,9 @@ div[data-service] .c-n-c .c-l-b::before{
 div[data-service] .c-n-c .c-la-b{
     margin-left: 1em;
 	padding: 1em;
-    background: rgba(225, 239, 255, .8);
-    color: #0d1f34;
+    background: transparent;
+    color: white;
+	border: solid white 1px;
 }
 
 div[data-service] .c-n-c .c-la-b:hover{
@@ -290,9 +291,9 @@ div[data-service].c-h-b iframe{
 }
 
 div[data-service] .c-n-t a {
-    color: #5fb3fb;
+    color: white;
     text-decoration: none;
-    border-bottom: 1px solid #5fb3fb;
+    border-bottom: 1px solid white;
 }
 
 div[data-service] .c-n-t a:hover{
