@@ -31,5 +31,29 @@ iframemanager.run({
         },
       },
     },
+    gmap: {
+      embedUrl: "{data-id}",
+      iframe: {
+        allow:
+          "fullscreen;",
+      },
+      cookie: {
+        name: "cc_gmap",
+      },
+      languages: {
+        de: {
+          notice:
+            'Dieser Inhalt wird von einem Drittanbieter gehostet. Durch das Laden der externen Inhalte akzeptieren Sie die <a rel="noreferrer" href="https://cloud.google.com/maps-platform/terms" title="Nutzungsbedingungen" target="_blank">Nutzungsbedingungen</ a> von Google Maps.',
+          loadBtn: "Karte laden",
+          loadAllBtn: "Nicht erneut fragen",
+        },
+        en: {
+          notice:
+            'This content is hosted by a third party. By showing the external content you accept the <a rel="noreferrer" href="https://cloud.google.com/maps-platform/terms" title="Terms and conditions" target="_blank">terms and conditions</a> of Google Maps.',
+          loadBtn: "Load map",
+          loadAllBtn: "Don't ask again",
+        },
+      },
+    },
   },
 });
